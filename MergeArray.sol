@@ -31,16 +31,29 @@ contract MergeArray{
         uint256 low = 0;
         uint256 mid = 0;
         uint256 hight = arr.length - 1;
-        //升序
+        bool ff = arr[hight]>arr[0];
+        //升序 或降序 
         while(low<=hight){
             mid = low + ( hight - low )/2;
             if(target==arr[mid]){
                 index = int256(mid);
-            }else if(arr[mid]<target){
-                low =mid+1;
-            }else{
-                hight = mid-1;
+                return index;
             }
+            if(ff){
+                if(arr[mid]<target){
+                    low = mid+1;
+                }else{
+                    hight = mid-1;
+                }
+            }else{
+                if(arr[mid]<target){
+                    
+                    hight = mid-1;
+                }else{
+                    low = mid+1;
+                }
+            }
+            
         }
 
         return index;
