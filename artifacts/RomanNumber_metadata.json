@@ -4,7 +4,94 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"name": "romanMap",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "romanNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "symbol",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "s",
+						"type": "string"
+					}
+				],
+				"name": "toInt",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "toRoman",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +120,11 @@
 	},
 	"sources": {
 		"RomanNumber.sol": {
-			"keccak256": "0xd403bab3c37f6cc235b628369bf36307e58e42adeeea49417d62dce620e98483",
+			"keccak256": "0xe4ad6cd30f2ed77c7cadca8b1eeec7db5450e672054c4db3e6c65842fcf3da98",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e7da80a376003aed9cc956da703867c9f18e2f6c0cd13af7a3f3474033b03a28",
-				"dweb:/ipfs/QmahfzUCTJuqhyV41bhRL9RUJpkXYgRTNCm4tHKYi98idy"
+				"bzz-raw://c66a9551aa363d3a4d83bd2c4ece939f093a2c0785dc795cf81ebab82fe31bb9",
+				"dweb:/ipfs/QmWRAaJzDZcCe5oErdEcnrebxp4UpLvdBKKDkrBknFJPsn"
 			]
 		}
 	},

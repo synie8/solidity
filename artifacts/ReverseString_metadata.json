@@ -13,11 +13,11 @@
 						"type": "string"
 					}
 				],
-				"name": "reverseLongString",
+				"name": "reverseString",
 				"outputs": [
 					{
 						"internalType": "string",
-						"name": "",
+						"name": "res",
 						"type": "string"
 					}
 				],
@@ -53,11 +53,11 @@
 	},
 	"sources": {
 		"ReverseString.sol": {
-			"keccak256": "0x2eff78a602eb42c38ff154666f65e824a3518d5d88650bd7511b86985621e6ab",
+			"keccak256": "0x4f7af0869662517871ce64876bb1dc1cacfb73fc9817e6c8cfe5399195f607e0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4a52161e6e27f30ed97318d8237b21d2ae41a035ab7b38a5d686715fe7056d92",
-				"dweb:/ipfs/QmeMh5cpJMPoKzWWpoCk8ycK3DwFSz2AdkqXSGVtTtrsJE"
+				"bzz-raw://27b65ca433bfddb78578d1ba2f4fd3d86fd16ac13928b8d52823e85b1dcc63ec",
+				"dweb:/ipfs/QmRrpSz7wDe783U1BkCHQ2qAtv8ebhstqbwbVNGsNBsQ9f"
 			]
 		}
 	},

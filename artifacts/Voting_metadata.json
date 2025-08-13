@@ -8,17 +8,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "p",
-						"type": "address"
-					}
-				],
-				"name": "getVote",
-				"outputs": [
-					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"name": "candidates",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -27,17 +27,17 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "per",
+						"type": "address"
+					}
+				],
+				"name": "getVotes",
+				"outputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"name": "persons",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -45,7 +45,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "resetAll",
+				"name": "resetVotes",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -54,16 +54,16 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "p",
+						"name": "per",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "vot",
+						"name": "num",
 						"type": "uint256"
 					}
 				],
-				"name": "setVote",
+				"name": "vote",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -72,15 +72,15 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "person",
+						"name": "",
 						"type": "address"
 					}
 				],
-				"name": "voteMapping",
+				"name": "votes",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "votes",
+						"name": "",
 						"type": "uint256"
 					}
 				],
@@ -116,11 +116,11 @@
 	},
 	"sources": {
 		"Voting.sol": {
-			"keccak256": "0x68d772771d3117d73d78e3e5f077153caa58678909a8b2db56bc577eacd6d7e0",
+			"keccak256": "0xde0859850dd81167aab02bdc780f9f8e929b27894281430cfcca8d1c2f6a3e1c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5b1fbeb042b1ebcf3117224a1a843be42d727578c66440d669edfb4290ba15f7",
-				"dweb:/ipfs/Qmez2iwGGqMQ1wyDutr4AZeG4yKEF74Nhh92zdz4CQGmGW"
+				"bzz-raw://b9be958e2e12275960c7dc80c400520d0a69e0cb2b375f9b27e1735da21fb2ce",
+				"dweb:/ipfs/Qme2LfUo8ajtmqHF7RLFeZk8Z5KLo2z4VCgCUzW5SecC66"
 			]
 		}
 	},
