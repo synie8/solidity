@@ -1,0 +1,12 @@
+{
+  "name": "小企鹅",
+  "description": "小企鹅",
+  "image": "ipfs://bafkreifyhs5l6apoddv2fcdx44je56vel7icns2e2a77yprpdmlppnawiy",
+  "attributes": [
+    {
+      "trait_type": "Eyes",
+      "value": "big"
+    }
+  ],
+  "external_url": "https://ipfs.io/ipfs/bafkreifyhs5l6apoddv2fcdx44je56vel7icns2e2a77yprpdmlppnawiy"
+}
