@@ -17,7 +17,7 @@ contract BiggingContract {
 
      constructor(uint256 _lockTimestamp) {
         owner = msg.sender;
-        lockTimestamp = _lockTimestamp;
+        lockTimestamp = block.timestamp+_lockTimestamp;
      }
 
      modifier onlyOwner() {
